@@ -44,8 +44,8 @@ function calcularDigitoVerificador(cpf, posicao) {
 }
 
 function limpaFormatacao(cpf) {
-    cpf = cpf.replace('.', '');  //pegar onde tiver ponto e mudar para vazio
-    cpf = cpf.replace(/\D/g, '');  //remove qualquer coisa diferente de caracteres por vazio
+    cpf = cpf.replace('.', ''); 
+    cpf = cpf.replace(/\D/g, '');
 
     return cpf;
 }
